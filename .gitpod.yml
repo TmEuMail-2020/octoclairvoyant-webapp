@@ -25,6 +25,14 @@
 
 image:
   file: .gitpod.Dockerfile
+jetbrains:
+  phpstorm:
+    plugins:
+      - com.mallowigi
+      - org.sonarlint.idea
+      - com.tabnine.TabNine
+    prebuilds:
+      version: stable
 
 tasks:
   - init: |
